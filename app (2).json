@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Pole Hazard Scan",
+    "slug": "pole-hazard-scan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "backgroundColor": "#0d0f12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ben464.polehazardscan"
+    },
+    "android": {
+      "package": "com.ben464.polehazardscan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d0f12"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Pole Hazard Scan to access your photos to scan pole images.",
+          "cameraPermission": "Allow Pole Hazard Scan to access your camera to photograph poles."
+        }
+      ]
+    ]
+  }
+}

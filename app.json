@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "19bb7c80-f6e3-4df9-92a3-f9b40f6b26f0"
+      }
+    },
+    "android": {
+      "package": "com.ben464.polehazardscan"
+    },
+    "plugins": [
+      "expo-image",
+      "expo-router",
+      "expo-secure-store",
+      "expo-splash-screen",
+      "expo-status-bar",
+      "expo-web-browser",
+      "expo-localization"
+    ]
+  }
+}
